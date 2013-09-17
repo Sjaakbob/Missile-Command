@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="6.5" multi-file="no">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <management>
+    <persons>
+      <person id="P7d28a8dab49d4aba834138184b2b6e53">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <filters />
+  <items />
+  <models>
+    <model id="p973927205445460282" name="Model 1" type="" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>09/10/2013 17:08:18</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <tagged-values />
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p930317275878963324" name="ClassDiagram1" order-index="1" show-nullability="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>09/10/2013 17:08:18</creation-date>
+          <change-date>09/10/2013 17:17:56</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <tagged-values />
+        <abstract-items>
+          <item id="di406985575248652602" cid="C001" type="class" name="Main" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P7d28a8dab49d4aba834138184b2b6e53" creation-date="09/10/2013 17:08:25">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="ad17c6b9439db481fa3ced08f4da2b967156" name="building" type="" type-id="" visibility="private" abstract="false" virtual="false" />
+            </attributes>
+            <operations>
+              <operation id="o24cf9e6b33b545edb413de94e0815c67852" name="Gameloop" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="o84477fa451b34c90a41d3844b542abe3520" name="shootBullet" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="o00da261f1ae145eaa44f16f83763b578297" name="NewOperation3" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di880048901641598183" cid="C002" type="class" name="Turret" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P7d28a8dab49d4aba834138184b2b6e53" creation-date="09/10/2013 17:08:36">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a251a15c1570e44a6a04e1caa5a5aecc3480" name="artTurret" type="" type-id="" visibility="private" abstract="false" virtual="false" />
+            </attributes>
+            <operations>
+              <operation id="o966de4243a754fc18a54b7683ac6cea3907" name="followMouse" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di632616510940712957" cid="C003" type="class" name="Bullet" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P7d28a8dab49d4aba834138184b2b6e53" creation-date="09/10/2013 17:08:49">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a22e841ee30af4427b43097e5c150f2de404" name="artBullet" type="" type-id="" visibility="private" abstract="false" virtual="false" />
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di258284782236090877" cid="C004" type="class" name="Enemy" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P7d28a8dab49d4aba834138184b2b6e53" creation-date="09/10/2013 17:09:04">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a69072fbd56484be88bba853e4b4b0583583" name="artEnemy" type="" type-id="" visibility="private" abstract="false" virtual="false" />
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di714827203913714413" cid="C005" type="class" name="Building" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P7d28a8dab49d4aba834138184b2b6e53" creation-date="09/10/2013 17:09:14">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a8443e933625048fdb0d7c5a73d89b58e234" name="artBuilding" type="" type-id="" visibility="private" abstract="false" virtual="false" />
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di463419485433760105" cid="GNR001" type="generalization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P7d28a8dab49d4aba834138184b2b6e53" creation-date="09/10/2013 17:11:30">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di406985575248652602" iid="35fb7b0086cb45898c59309f21740b47" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="09/10/2013 17:08:25" order-index="0" type="entity">
+            <layout ax="71" ay="200" awidth="105" aheight="96" x="71" y="200" width="105" height="96" angle="0" />
+            <class />
+          </item>
+          <item id="di880048901641598183" iid="3b0249b2a3834a0384a4c2e54377b8d4" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="09/10/2013 17:08:36" order-index="1" type="entity">
+            <layout ax="247" ay="349" awidth="100" aheight="105" x="247" y="349" width="100" height="105" angle="0" />
+            <class />
+          </item>
+          <item id="di632616510940712957" iid="5687fbf3cf434ab6ba40b4f9153a8105" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="09/10/2013 17:08:49" order-index="2" type="entity">
+            <layout ax="403" ay="352" awidth="107" aheight="102" x="403" y="352" width="107" height="102" angle="0" />
+            <class />
+          </item>
+          <item id="di258284782236090877" iid="2c7b27d292744963a98f7bd8085ebfc6" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="09/10/2013 17:09:04" order-index="3" type="entity">
+            <layout ax="433" ay="213" awidth="77" aheight="98" x="433" y="213" width="77" height="98" angle="0" />
+            <class />
+          </item>
+          <item id="di714827203913714413" iid="5498bf032ac840509d3d020ebc43bfa0" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="09/10/2013 17:09:14" order-index="4" type="entity">
+            <layout ax="314" ay="43" awidth="103" aheight="106" x="314" y="43" width="103" height="106" angle="0" />
+            <class />
+          </item>
+          <item id="di463419485433760105" iid="725390468c514f8a97f047b0f7db01d6" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="09/10/2013 17:11:30" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="176" y1="248" x2="433" y2="260" start-border-pos="0.375" end-border-pos="0.881302502690529">
+              <points>
+                <point x="176" y="248" />
+                <point x="251" y="248" />
+                <point x="433" y="260" />
+              </points>
+            </layout>
+            <relation from="di406985575248652602" from-iid="35fb7b0086cb45898c59309f21740b47" to="di258284782236090877" to-iid="2c7b27d292744963a98f7bd8085ebfc6" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>
